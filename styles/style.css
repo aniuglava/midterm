@@ -3,12 +3,6 @@
   max-width: 1220px;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .upper-navigation {
   display: flex;
   justify-content: space-between;
@@ -62,13 +56,13 @@ body {
 }
 
 .hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 1920px;
   height: 100vh;
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .hero .hero-images {
   position: absolute;
